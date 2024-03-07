@@ -16,3 +16,10 @@ b = parseInt(b)
 
 let somme = a + b;
 console.log(somme);
+
+
+
+
+
+// let produit= a * b;
+// console.log(produit);
