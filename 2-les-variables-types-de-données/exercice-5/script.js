@@ -8,6 +8,4 @@ let estContent = true;
 // La variable "genre" est de type : string
 // La variable "estContent" est de type : boolean
 
-console.log(typeof age);  // "number"
-console.log(typeof genre); // "string"
-console.log(typeof estContent); // "boolean"
+console.log(`la variable "age" est de type : ${typeof age}`);
