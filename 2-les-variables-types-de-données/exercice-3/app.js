@@ -8,11 +8,12 @@ console.log(b);
 
 // a => 5 et  b => 1
 
-a = a ^ b;
-b = a ^ b;
-a = a ^ b;
+// création d'une nouvelle variable C contenant la variable a
+let c = a;
+a = b;
+b = c;
 
-console.log('a is now:', a);
-console.log('b is now:', b);
+console.log(a);
+console.log(b);
 
-// C'est ce qu'on appelle l'algorithme d'échange XOR
+
