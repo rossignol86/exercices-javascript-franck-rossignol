@@ -9,3 +9,5 @@ let estContent = true;
 // La variable "estContent" est de type : boolean
 
 console.log(`la variable "age" est de type : ${typeof age}`);
+console.log(`la variable "genre" est de type : ${typeof genre}`);
+console.log(`la variable "estContent" est de type : ${typeof estContent}`);
