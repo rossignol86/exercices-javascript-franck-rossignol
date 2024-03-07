@@ -17,7 +17,8 @@ b = parseInt(b)
 let somme = a + b;
 console.log(somme);
 
-
+let message = `${a} + ${b} = ${somme}`;
+console.log(message)
 
 
 
