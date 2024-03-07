@@ -12,6 +12,9 @@ let a = prompt("premier chiffre");
 a = parseInt(a)
 let b = prompt("deuxieme chiffre");
 b = parseInt(b)
+// on récuper des strings (chaine de caractères) :
+// je les transformes en number parseInt :
+
 
 let quotient = a / b;
 console.log(quotient);
