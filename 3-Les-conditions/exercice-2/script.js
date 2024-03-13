@@ -9,10 +9,8 @@
 // let nombre1 = 150;
 // let nombre2 = 100;
 
-let nombre1 = prompt("premier chiffre");
-nombre1 = parseInt(nombre1)
-let nombre2 = prompt("deuxieme chiffre");
-nombre2 = parseInt(nombre2)
+let nombre1 = parseInt(prompt("premier chiffre"));
+let nombre2 = parseInt(prompt("deuxieme chiffre"));
 
 if (nombre1 > nombre2) {
     console.log("le nombre 1 est plus grand !");
