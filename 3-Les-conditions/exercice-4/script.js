@@ -12,7 +12,7 @@ let motdepasse1 = parseInt(prompt("Mot de passe"));
 let motdepasseperso = 1234;
 
 if (motdepasse1 === motdepasseperso) {
-    console.log("ok");
+    console.log("Mot de passe valide");
 } else if (motdepasse1 !== motdepasseperso) {
-    console.log("Accès interdit");
+    console.log("Mot de passe invalide");
 }
