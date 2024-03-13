@@ -1,18 +1,12 @@
-// Exemples de résultats attendus :
+// Exemples de résultats attendus dans la console :
+// Mot de passe valide
+// Mot de passe invalide
 
-// si le mot de passe est correct :
-
-// OK 
-
-// si le mot de passe est incorrect
-
-// Accès interdit
-
-let motdepasse1 = parseInt(prompt("Mot de passe"));
-let motdepasseperso = 1234;
+let motdepasse1 = prompt("Mot de passe");
+let motdepasseperso = `1234ABC`;
 
 if (motdepasse1 === motdepasseperso) {
-    console.log("ok");
+    console.log("Mot de passe valide");
 } else if (motdepasse1 !== motdepasseperso) {
-    console.log("Accès interdit");
+    console.log("Mot de passe invalide");
 }
