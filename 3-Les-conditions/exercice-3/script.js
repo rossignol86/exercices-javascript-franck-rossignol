@@ -2,8 +2,8 @@
 // Mot de passe valide
 // Mot de passe invalide
 
-let motdepasse1 = prompt("Mot de passe");
-let motdepasseperso = `1234ABC`;
+let motdepasse1 = parseInt(prompt("Mot de passe"));
+let motdepasseperso = 1234;
 
 if (motdepasse1 === motdepasseperso) {
     console.log("OK");
