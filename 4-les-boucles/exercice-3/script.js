@@ -1,7 +1,4 @@
-let compteur = 5;
-
- while (compteur > 0) {
-    console.log(compteur);
-    compteur--;
- }
- console.log("Décollage 🚀");
+for (let i = 5; i >= 1; i--) {
+   console.log(i);
+}
+console.log('Décollage 🚀');

@@ -1,5 +1,7 @@
-let question = prompt('Est-ce que vous aimez JavaScript ?');
+let reponse = '';
 
-while (question !== "oui"){
-    question = prompt('Est-ce que vous aimez JavaScript ?');
+while (reponse !== 'oui') {
+    reponse = prompt('Est-ce que vous aimez JavaScript ?');
 }
+
+alert('tu aimes le JS');
