@@ -8,12 +8,10 @@
 // Si correct, résultat attendu dans la console : 
 // Accès autorisé.
 
-const motDePassePerso = '1234';
-const motDePasse = prompt('Veuillez entrer le mot de passe :');
+let motDePasse = '1234';
+let proposition = prompt("Veuillez entrer le mot de passe :");
 
-if (motDePasse === motDePassePerso) {
-    console.log('OK');
-} else {
-    alert('Accès interdit');
+while (motDePasse !== proposition) {
+    proposition = prompt("Mot de passe incorrect, essayez à nouveau.");
 }
-
+console.log("Accès autorisé.");
