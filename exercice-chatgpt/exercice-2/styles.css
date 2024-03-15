@@ -19,8 +19,7 @@ body {
 }
 
 .fish {
-    background-image: url('chemin_vers_votre_image.jpg');
-    background-size: cover;
+    background-size: 100%; /* Mettre l'image à 100% de largeur et de hauteur */
     background-position: center;
     width: 200px;
     height: 200px;
