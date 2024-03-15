@@ -1,0 +1,76 @@
+body {
+    background-color: black; /* Fond noir */
+    color: white; /* Texte blanc */
+    font-family: Arial, sans-serif; /* Police de caractères */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 40px;
+}
+
+.grid {
+    display: inline-grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    gap: 10px;
+}
+
+.fish {
+    background-image: url('chemin_vers_votre_image.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+}
+
+p {
+    font-size: 12px;
+    margin-bottom: 20px 20px 20px 20px;
+}
+
+button {
+    background-color: yellow;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.fish:nth-child(1) {
+    background-color: blue; /* Couleur pour le premier carré */
+}
+
+.fish:nth-child(2) {
+    background-color: red; /* Couleur pour le deuxième carré */
+}
+
+.fish:nth-child(3) {
+    background-color: green; /* Couleur pour le troisième carré */
+}
+.fish:nth-child(4) {
+    background-color: blue; /* Couleur pour le premier carré */
+}
+
+.fish:nth-child(5) {
+    background-color: red; /* Couleur pour le deuxième carré */
+}
+
+.fish:nth-child(6) {
+    background-color: green; /* Couleur pour le troisième carré */
+}
+
+.fish:nth-child(7) {
+    background-color: blue; /* Couleur pour le premier carré */
+}
+
+.fish:nth-child(8) {
+    background-color: red; /* Couleur pour le deuxième carré */
+}
+
+.fish:nth-child(9) {
+    background-color: green; /* Couleur pour le troisième carré */
+}
