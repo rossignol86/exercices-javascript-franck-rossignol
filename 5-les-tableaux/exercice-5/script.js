@@ -12,9 +12,14 @@
 //Samedi, des patates
 //Dimanche, des patates aussi !
 
-let patates = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
-console.table(patates);
+let jours = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
+console.table(jours);
 
-for (let i = 0; i < patates.length; i++) {
-    console.log(patates[i]);
+for (const jour of jours) {
+    if( jour === 'Dimanche'){
+      console.log(`${jour}, des patates aussi !`);
+    } else {
+      console.log(`${jour}, des patates`);
+    }
+
   }
