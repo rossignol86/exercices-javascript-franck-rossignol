@@ -1,17 +1,19 @@
-// Résultat attendu dans la console :
-// 0
-// 1
-// 2
-// ...
-// 10
+//Créez un tableau contenant tous les jours de la semaine
+//sous forme de chaînes de caractères. 
+//Affichez ensuite le tableau dans la console,
+//grâce à console.table().
+//à l’aide d’une boucle for, bouclez sur le tableau pour
+//afficher chaque jour de la semaine dans la console
+//en utilisant le format : "Le jour X de la semaine est JOUR".
 
-// Preferez cette methode pour ce cas
-for (let i = 0; i <= 10; i++) {
-    console.log(i);
+let jours = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"];
+console.table(jours);
+
+for (let i = 0; i < jours.length; i++) {
+    console.log(jours[i]);
+  }
+
+
+for (let i = 0; i < jours.length; i++) {
+  console.log(`Le jour ` + (i + 1) + " de la semaine est " + (jours[i]));
 }
-
-// let compteur = 0;
-// while (compteur <= 10) {
-//     console.log(compteur);
-//     compteur++;
-// }
