@@ -1,17 +1,20 @@
-// Résultat attendu dans la console :
-// 0
-// 1
-// 2
-// ...
-// 10
+// à l’aide d’une boucle for..of, bouclez sur un tableau de jours
+//["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
+//et affichez le résultat ci-dessous.
 
-// Preferez cette methode pour ce cas
-for (let i = 0; i <= 10; i++) {
-    console.log(i);
-}
+// Résultat dans la console :
 
-// let compteur = 0;
-// while (compteur <= 10) {
-//     console.log(compteur);
-//     compteur++;
-// }
+//Lundi, des patates
+//Mardi, des patates
+//Mercredi, des patates
+//Jeudi, des patates
+//Vendredi, des patates
+//Samedi, des patates
+//Dimanche, des patates aussi !
+
+let patates = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
+console.table(patates);
+
+for (let i = 0; i < patates.length; i++) {
+    console.log(patates[i]);
+  }
