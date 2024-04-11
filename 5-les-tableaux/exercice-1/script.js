@@ -19,3 +19,5 @@ console.log(nombres[nombres.length - 1]);
 console.log(`le premier nombre du tableau est : ${nombres[0]}`);
 
 console.log(`le troisième nombre du tableau est : ${nombres[2]}`);
+
+console.log(`le dernier nombre du tableau est : ${nombres[nombres.length - 1]}`);
