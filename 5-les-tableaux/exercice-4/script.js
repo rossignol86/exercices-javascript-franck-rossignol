@@ -20,7 +20,7 @@ console.log(`Les dix premiers nombres sont : ${tableau}`);
 
 let tableauPaire = [ ];
 console.table(tableauPaire);
-for (var i = 2; i <= 20; i += 2) {
+for (let i = 2; i <= 20; i += 2) {
     tableauPaire.push(i);
 }
 console.log(tableauPaire)
@@ -31,7 +31,7 @@ console.log(`Les dix premiers nombres pairs sont : ${tableauPaire}`);
 
 let tableauImpaire = [ ];
 console.table(tableauImpaire);
-for (var i = 1; i <= 20; i += 2) {
+for (let i = 1; i <= 20; i += 2) {
     tableauImpaire.push(i);
 }
 console.log(tableauImpaire)
