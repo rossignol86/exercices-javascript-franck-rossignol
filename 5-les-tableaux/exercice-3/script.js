@@ -17,3 +17,6 @@ for (let i = 0; i < jours.length; i++) {
 for (let i = 0; i < jours.length; i++) {
   console.log(`Le jour ` + (i + 1) + " de la semaine est " + (jours[i]));
 }
+
+//DÉFI : Lorsque vous arrivez à "Dimanche" dans votre boucle, affichez :
+// "Le jour 7 de la semaine est Dimanche, et le Dimanche c'est Gratuit !"
