@@ -1,17 +1,15 @@
-// Résultat attendu dans la console :
-// 0
-// 1
-// 2
-// ...
-// 10
+//Créez un tableau contenant plusieurs couleurs.
+//Affichez la longueur du tableau dans la console,
+//puis ajoutez deux couleurs supplémentaires et
+//affichez à nouveau la longueur pour voir le changement.
 
-// Preferez cette methode pour ce cas
-for (let i = 0; i <= 10; i++) {
-    console.log(i);
-}
+let couleurs = ["bleu", "blanc", "rouge"]
+console.table(couleurs);
 
-// let compteur = 0;
-// while (compteur <= 10) {
-//     console.log(compteur);
-//     compteur++;
-// }
+console.log(couleurs.length);
+
+couleurs[3] = "vert";
+couleurs[4] = "orange";
+console.table(couleurs);
+
+console.log(couleurs.length);
