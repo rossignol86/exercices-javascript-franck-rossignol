@@ -1,23 +1,20 @@
-//const nombres = [12, 18, 33, 5, 78, 56, 47, 28]
+//Créez un fonction qui demande une confirmation à l’utilisateur
+//(confirm()) avec le message : “Avez vous les droits pour accéder
+//aux codes nucléaires ? Soyez honnête s’il vous plait, cela peut
+//être dangereux.”. 
+//Si l’utilisateur accepte, afficher une alerte dans la console
+//avec le code de votre choix (ex : 1234). 
+//Sinon affichez “vous n’avez pas les droits !!” dans la console.
 
-// Résultat dans la console :
+function confirm() {
+    console.log("Avez vous les droits pour accéder aux codes nucléaires ? Soyez honnête s’il vous plait, cela peut être dangereux.");
+}
 
-//le premier nombre du tableau est 12
-//le troisième nombre du tableau est 33
-//le dernier nombre du tableau est 28
+const motDePassePerso = '1234';
+const motDePasse = confirm('Avez vous les droits pour accéder aux codes nucléaires ? Soyez honnête s’il vous plait, cela peut être dangereux.');
 
-let nombres = [12, 18, 33, 5, 78, 56, 47, 28]
-console.table(nombres);
-
-
-console.log(nombres[0]);
-
-console.log(nombres[2]);
-
-console.log(nombres[nombres.length - 1]);
-
-console.log(`le premier nombre du tableau est : ${nombres[0]}`);
-
-console.log(`le troisième nombre du tableau est : ${nombres[2]}`);
-
-console.log(`le dernier nombre du tableau est : ${nombres[nombres.length - 1]}`);
+if (motDePasse === motDePassePerso) {
+    console.log('vous n’avez pas les droits !!');
+} else {
+    alert('vous n’avez pas les droits !!');
+}
