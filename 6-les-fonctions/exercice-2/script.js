@@ -3,12 +3,13 @@
 //Si aucun prénom n'est donné, la fonction doit retourner
 //“Un pour toi, un pour moi”.
 
-function proverbe(prenom) {
-    console.log("Un pour " + prenom + ", un pour moi");
+function proverbe(prenom = `toi`) {
+    return `Un pour ${prenom}, un pour moi`
   }
   
 // Appel de la fonction proverbe avec le prenom "Franck"
-proverbe("Franck");
+let resultat = proverbe("Franck");
+console.log(resultat);
 
 // Appel de la fonction proverbe sans le prenom "Franck"
-proverbe();
+console.log(proverbe())
