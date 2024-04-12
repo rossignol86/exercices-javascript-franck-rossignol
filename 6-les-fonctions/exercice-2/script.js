@@ -1,23 +1,14 @@
-//const nombres = [12, 18, 33, 5, 78, 56, 47, 28]
+//Écrivez une fonction qui prend en paramètre un prénom.
+//La fonction doit retourner “Un pour <prenom>, un pour moi”. 
+//Si aucun prénom n'est donné, la fonction doit retourner
+//“Un pour toi, un pour moi”.
 
-// Résultat dans la console :
+function proverbe(prenom) {
+    console.log("Un pour " + prenom + ", un pour moi");
+  }
+  
+// Appel de la fonction proverbe avec le prenom "Franck"
+proverbe("Franck");
 
-//le premier nombre du tableau est 12
-//le troisième nombre du tableau est 33
-//le dernier nombre du tableau est 28
-
-let nombres = [12, 18, 33, 5, 78, 56, 47, 28]
-console.table(nombres);
-
-
-console.log(nombres[0]);
-
-console.log(nombres[2]);
-
-console.log(nombres[nombres.length - 1]);
-
-console.log(`le premier nombre du tableau est : ${nombres[0]}`);
-
-console.log(`le troisième nombre du tableau est : ${nombres[2]}`);
-
-console.log(`le dernier nombre du tableau est : ${nombres[nombres.length - 1]}`);
+// Appel de la fonction proverbe sans le prenom "Franck"
+proverbe();
