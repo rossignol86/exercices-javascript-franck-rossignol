@@ -1,23 +1,51 @@
-//const nombres = [12, 18, 33, 5, 78, 56, 47, 28]
+//Créez quatre fonctions distinctes pour l'addition,
+//la soustraction, la multiplication et la division. 
+//Chaque fonction doit vérifier si les arguments a et b
+//sont bien définis et sont des nombres;
+//si ce n'est pas le cas, retournez "paramètres incorrects".
+//Sinon, effectuez l'opération correspondante et retournez
+//le résultat.
 
-// Résultat dans la console :
+//addition(a, b)
 
-//le premier nombre du tableau est 12
-//le troisième nombre du tableau est 33
-//le dernier nombre du tableau est 28
+function addition(a, b) {
+    if (typeof a === 'number' && typeof b === 'number') {
+      return a + b;
+    } else {
+      console.log ("paramètres incorrects");}
+}
+const resultat = addition(15, 30);
+console.log(resultat);
 
-let nombres = [12, 18, 33, 5, 78, 56, 47, 28]
-console.table(nombres);
 
 
-console.log(nombres[0]);
+function soustraction(a, b) {
+  if (typeof a === 'number' && typeof b === 'number') {
+    return a - b;
+  } else {
+    console.log ("paramètres incorrects");}
+}
+const resultat2 = soustraction (15, 30);
+console.log(resultat2);
 
-console.log(nombres[2]);
 
-console.log(nombres[nombres.length - 1]);
 
-console.log(`le premier nombre du tableau est : ${nombres[0]}`);
+function multiplication(a, b) {
+  if (typeof a === 'number' && typeof b === 'number') {
+    return a * b;
+  } else {
+    console.log ("paramètres incorrects");}
+}
+const resultat3 = multiplication("a", 30);
+console.log(resultat3);
 
-console.log(`le troisième nombre du tableau est : ${nombres[2]}`);
 
-console.log(`le dernier nombre du tableau est : ${nombres[nombres.length - 1]}`);
+
+function division(a, b) {
+  if (typeof a === 'number' && typeof b === 'number') {
+    return a / b;
+  } else {
+    console.log ("paramètres incorrects");}
+}
+const resultat4 = division(150, 30);
+console.log(resultat4);
