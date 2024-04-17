@@ -25,3 +25,17 @@ console.log(sontAnagrammes('toto', 'titi'))
 console.log(sontAnagrammes('chien', 'niche'))
 console.log(sontAnagrammes('toto', 'titi'))
 
+
+
+function sontAnagrammes(motA, motB) {
+    motA = motA.split(``).sort().join(``)
+    motB = motB.split(``).sort().join(``)
+
+    if (motA === motB) {  //si motA est egal à motB
+        return true //retourne vrai
+    } else { //sinon
+        return false //retourne faux
+    } 
+}
+
+console.log(sontAnagrammes('chine', 'niche'))
