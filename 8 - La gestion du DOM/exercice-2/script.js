@@ -1,42 +1,17 @@
-// Créez une fonction qui prend deux mots en paramètre
-// et vérifie s'ils sont des anagrammes,
-// c'est-à-dire s'ils contiennent les mêmes lettres
-// dans un ordre différent.
-// La fonction doit retourner un booléen : true
-// si les mots sont des anagrammes, false sinon
+// Dans votre HTML :
+// 1 - creer un header (element HTML)
+// - creer un element footer (element HTML)
+console.log("coucou")
 
 
-function sontAnagrammes(mot1, mot2) {
-    mot1 = mot1.split(``) //divise caratere en tableau
-    mot1.sort(); //trie les elements du tableau
-    mot1 = mot1.join(``) //joint les elements du tableau
+// Dans votre Javascript :
+// 2 - creer un element html h1
+let nouvelElement = document.createElement
 
-    mot2 = mot2.split(``) //divise caratere en tableau
-    mot2.sort(); //trie les elements du tableau
-    mot2 = mot2.join(``) //joint les elements du tableau
+// 3 - modifier la taille de votre h1 (50px)
+// 4 - changer la couleur du h1 
+// 5 - Ajouter un texte dans votre h1
+// 6 - Ajouter votre element H1 => dans votre element Header
+// 7 - Supprimer votre element footer
 
-    if (mot1 === mot2) {  //si mot1 est egal à mot2
-        return true //retourne vrai
-    } else { //sinon
-        return false //retourne faux
-    } 
-}
-
-console.log(sontAnagrammes('toto', 'titi'))
-console.log(sontAnagrammes('chien', 'niche'))
-console.log(sontAnagrammes('toto', 'titi'))
-
-
-
-function sontAnagrammes(motA, motB) {
-    motA = motA.split(``).sort().join(``)
-    motB = motB.split(``).sort().join(``)
-
-    if (motA === motB) {  //si motA est egal à motB
-        return true //retourne vrai
-    } else { //sinon
-        return false //retourne faux
-    } 
-}
-
-console.log(sontAnagrammes('chine', 'niche'))
+let nouvelElement
