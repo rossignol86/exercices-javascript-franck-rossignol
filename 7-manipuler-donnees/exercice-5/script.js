@@ -1,8 +1,12 @@
-//Créez un fonction qui affiche une présentation
-//de vous, dans la console. 
+//Grace à la méthode slice(),
+//découper la chaine de caractère suivante
+//pour récupérer juste le mot JavaScript.
+//Mettez cette nouvelle chaine dans une variable
+//et afficher la dans la console.
 
-function description() {
-    console.log("je m'appelle Franck");
-}
+const phrase = 'Hello, World! I am a JavaScript program.'
 
-description()
+// résultat attendu :
+//JavaScript
+
+console.log(phrase.slice(21, 31));
