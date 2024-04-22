@@ -1,0 +1,7 @@
+body {
+    background: #68dea3;
+    display: flex;
+}
+.container {
+    align-content: center;
+  }
