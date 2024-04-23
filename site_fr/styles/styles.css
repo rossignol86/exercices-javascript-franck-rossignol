@@ -41,17 +41,20 @@ body {
     font-size: 26px;
     letter-spacing: 1px;
 }
-.contact {
+.moncv {
     text-align: center;
-    color: #ffffff;
     background-color:#FC721A;
     width: 300px;
     height: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.monliencv {
+    color: #ffffff;;
+    text-decoration: none;
     font-size: 16px;
-    letter-spacing: 1px;  
+    letter-spacing: 1px;
 }
 .linkedin {
     width: 150px;
@@ -80,7 +83,7 @@ body {
 /* style footer */
 .container {
     width: 800px;
-    height: 200px;
+    height: 210px;
     background-color: #DDEDF9;
     border-radius: 20px 20px 0px 0px;
     position: fixed;
@@ -89,7 +92,6 @@ body {
     transform: translateX(-50%);
     text-align: center;
 }
-
 .contact-text {
     color: #000000;
     width: 800px;
@@ -97,7 +99,6 @@ body {
     font-size: 24px;
     letter-spacing: 1px;
 }
-
 .info {
     display: inline-block;
     width: 250px;
@@ -106,21 +107,25 @@ body {
     color: #000000;
     letter-spacing: 0px;
 }
-
 .mail {
     display: inline-block;
     width: 250px;
     margin: 10px 0px 0px 0px ;
     text-align: center;
+    font-size: 16px;
     color: #000000;
     letter-spacing: 0px;
+    text-decoration: none;
 }
-
+.mon-lien {
+    color: #000000;;
+    text-decoration: none;
+}
 .infosplus {
-    width: 900px;
+    width: 800px;
     color: #000000;
     text-align: center;
     font-size: 12px;
-    margin-top: 10px; /* Espace en haut */
+    margin-top: 20px; /* Espace en haut */
     letter-spacing: 1px;
 }
