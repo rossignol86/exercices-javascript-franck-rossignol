@@ -4,6 +4,10 @@ body {
     font-family: 'Orbitron', sans-serif;
     font-family : "Bai Jamjuree", sans-serif ;
 }
+h1.{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+}
 
 /* style header */
 .pictooiso {
@@ -38,14 +42,12 @@ body {
     height: 50px;
     display: flex;
     justify-content: space-around;
-    font-family: 'Orbitron', sans-serif;
+    
     align-items: center;
-    font-size: 16px;
     letter-spacing: 1.2px;
 }
 .moncv {
     font-family: 'Orbitron', sans-serif;
-    font-size: 30px;
     text-align: center;
     background-color:#FC721A;
     width: 300px;
