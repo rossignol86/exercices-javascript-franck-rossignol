@@ -3,9 +3,17 @@
 
 let element = document.querySelector('img')
 
-element.addEventListener('survol', function(mousemove) {
-    console.log('Élément survolé');
+//elle devient floue au passage de la sortie;
+element.addEventListener('mouseover', function() {
+    element.style.filter = 'blur(10px)';
 });
 
-//elle devienne floue.
-//(faite le bien en javascript, pas avec un :hover)
+//elle devient net lorsquer la souris quitte l'element
+element.addEventListener('mouseout', function() {
+    element.style.filter = 'none';
+});
+
+//elle s'efface lorsque je click la souris;
+element.addEventListener('click', function() {
+    element.style.filter = 'opacity(0%)';
+});
