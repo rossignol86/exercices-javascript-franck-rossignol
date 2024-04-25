@@ -88,9 +88,9 @@ a.{
 /* style footer */
 
 .conteneur {
-    padding: 40px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     width: 100%;
-    height: 220px;
+    height: 170px;
     background-color: #ffffff;
     display: flex;
     justify-content: center;
@@ -98,10 +98,9 @@ a.{
     }
 .coordonnees {
     width: 800px;
-    height: 220px;
+    height: 170px;
     background-color: #DDEDF9;
-    border-radius: 20px 20px 0px 0px;
-    position: fixed;
+    border-radius: 20px 20px 20px 20px;
     text-align: center;
 }
 .contact-text {
