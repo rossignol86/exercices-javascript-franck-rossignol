@@ -1,0 +1,154 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Orbitron', sans-serif; 
+    font-family: "Montserrat", sans-serif;
+}
+h2 {
+    color: #000000;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif; 
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+    
+    
+/* style colonnes infographiste */
+.conteneur {
+    padding: 20px 0px 0px 0px;
+    width: 100%;
+    height: 600px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.main {
+    width: 800px;
+    height: 600px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+.section1 {
+    width: 300px;
+    height: 650px;
+    background-color: #ffffff;
+}
+
+.competences {
+    font-family: 'Orbitron', sans-serif; 
+    font-size: 22px;
+    text-align: center;
+}
+.experiences {
+    font-family: 'Orbitron', sans-serif; 
+    font-size: 22px;
+    text-align: center;
+}
+.fleche1 {
+    width: 300px;
+    margin-top: -17px;
+
+}
+.illustexperience {
+    width: 300px;
+    margin-top: -17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.illustcompetence {
+    width: 300px;
+    margin-top: -5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    
+    
+/* style colonne reconversions */
+.section2 {
+    width: 500px;
+    height: 650px;
+    background-color: #FFFFFF;
+    padding: 0px 0px 0px 20px;
+}
+.carriere {
+    width: 500px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: black;
+    padding: 0px 0px 20px 0px;
+
+}
+
+/* style bloc reconversion */
+.blocreconversion {
+    width: 480px;
+    height: 490px;
+    border-radius: 20px;
+} 
+
+.reconversion {
+    width: 480px;
+    height: 50px;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #2773BE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.developpeurweb {
+    width: 480px;
+    height: 50px;
+    color: #000000;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif; 
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: bold;
+    letter-spacing: 1px;
+} 
+
+.jerecherche{
+    width: 480px;
+    height: 100px;
+    color: #FC721A;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: bold;
+    padding: 30px 0px 20px 0px;
+
+}
+    
+.colonnestxtill{
+    width: 480px;
+    display: flex;
+}
+   
+
+.txtreconversion{
+    width: 200px;
+    color: #000000;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 20px;
+}
+
+.illustdeveloppeur{
+    width: 280px;
+}
