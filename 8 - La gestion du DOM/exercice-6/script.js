@@ -19,7 +19,7 @@ const images = [
 
 for (const image of images){
     let nouvelElement = document.createElement('img');
-    document.body.appendChild(nouvelElement);
-   
-    console.log (image)
+
+    nouvelElement.src = image;
+    
 }
