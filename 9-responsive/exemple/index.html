@@ -6,25 +6,25 @@
     <title>Responsive</title>
 </head>
 <style>
-    /* Comportement par défaut */
+/* Comportement par défaut */
 .box {
-  height: 300px;
-  width: 300px;
-  background: red;
+  height: 200px;
+  width: 200px;
   margin: 0 auto;
+  background: orange;
 }
 
-/* 1200px ou moins */
-@media (max-width: 1200px) {
+/* 500px et plus */
+@media (min-width: 500px) {
   .box {
-     background: pink;
+    background: green;
   }
 }
 
-/* 800px ou moins */
-@media (max-width: 800px) {
+/* 800px et plus */
+@media (min-width: 800px) {
   .box {
-     background: green;
+    background: yellow;
   }
 }
 </style>
