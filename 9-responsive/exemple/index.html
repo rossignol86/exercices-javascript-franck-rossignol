@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+</head>
+<style>
+    /* Comportement par défaut */
+.box {
+  height: 300px;
+  width: 300px;
+  background: red;
+  margin: 0 auto;
+}
+
+/* 1200px ou moins */
+@media (max-width: 1200px) {
+  .box {
+     background: pink;
+  }
+}
+
+/* 800px ou moins */
+@media (max-width: 800px) {
+  .box {
+     background: green;
+  }
+}
+</style>
+<body>
+    <div class="box"></div>
+</body>
+</html>
