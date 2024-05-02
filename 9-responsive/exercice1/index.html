@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice1</title>
+</head>
+<style>
+/* Code de base - Ne pas toucher */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+.box {
+  height: 100px;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  font-size: 2rem;  
+  color: #f1f1f1;
+}
+.box-1 {
+  background: #111;
+}
+.box-2 {
+  background: crimson;
+}
+
+/* VOTRE CODE ICI */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+@media (min-width: 500px) {
+  .box {
+    height: 250px;
+  }
+}
+
+@media (min-width: 900px) {
+  .container {
+    flex-direction: row;
+  }
+}
+
+</style>
+
+<body>
+  <div class="container">
+    <div class="box box-1">BOX 1</div>
+    <div class="box box-2">BOX 2</div>
+    
+  </div>
+</body>
+</html>
